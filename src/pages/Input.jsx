@@ -1,4 +1,4 @@
-const Input = ({colorValue, setColorValue, hexValue, setHexValue}) => {
+const Input = ({colorValue, setColorValue}) => {
   return (
     <div >
       <form onSubmit={(e) => e.preventDefault()}>
